@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Amigos!!!</title>
+    <script src="action_first.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style src="style.css" ></style>
+    <select id="mySelect" onchange="fun1()">
+        <option>Apple</option>
+        <option>Orange</option>
+        <option>Pineapple</option>
+        <option>Tomato</option>
+    </select>
+    <br>
+    <input type="radio" name="r1" value="5"> First
+    <input type="radio" name="r1" value="13"> Second
+    <input type="radio" name="r1" value="53"> Third
+        <br>
+    <button onclick="fun2()">Check what was selected</button>
+        <br>
+    <label><input type="checkbox" id="one" onchange="fun3()">Кликни на надпись</label>
+        <br>
+    <input type="range" id="r2" oninput="fun4()" min="50" max="200" step="2">
+        <br>
+    <input type="text" id="data">
+        <br>
+    <div id="test"></div>
+</body>
+</html>
